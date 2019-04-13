@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #site=`http://13.250.122.153:8888/AbcabWebApp/`
 
