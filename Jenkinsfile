@@ -7,7 +7,8 @@ stages{
     stage("Testing"){
         steps{
             script{
-                sh'/root/Scripts/test2.sh'
+                sh 'ls -lrt /root/Scripts'
+                sh '/root/Scripts/test2.sh'
             }
         }
     }
