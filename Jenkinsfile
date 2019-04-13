@@ -6,7 +6,7 @@ stages{
     Stage(Testing){
         steps{
             script{
-                sh'test2.sh
+                sh'test2.sh'
             }
         }
     }
