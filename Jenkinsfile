@@ -1,5 +1,6 @@
 pipeline{
-agent{
+agent
+{
 lable "Slave_unix"
 }
 stages{
