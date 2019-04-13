@@ -7,7 +7,7 @@ stages{
     stage("Testing"){
         steps{
             script{
-                sh'test2.sh'
+                sh'/root/Scripts/test2.sh'
             }
         }
     }
