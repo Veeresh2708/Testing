@@ -1,9 +1,9 @@
 pipeline{
 agent{
-    Slave_unix
+    lable "Slave_unix"
     }
 stages{
-    Stage(Testing){
+    stage("Testing"){
         steps{
             script{
                 sh'test2.sh'
