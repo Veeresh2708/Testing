@@ -1,7 +1,7 @@
 pipeline{
 agent
 {
-lable "Slave_unix"
+label "Slave_unix"
 }
 stages{
     stage("Testing"){
