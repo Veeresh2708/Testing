@@ -5,7 +5,7 @@
 #echo "please wait while we are accessing the URL:"
 #sleep 10
 
-echo accessing "http://13.250.122.153:8888/AbcabWebApp/"
+echo accessing "http://ec2-54-255-186-19.ap-southeast-1.compute.amazonaws.com:8888/AbcabWebApp/"
 
 output=`curl -Is http://13.250.122.153:8888/AbcabWebApp/ | head -n 1 | cut -c 10-12`
 
