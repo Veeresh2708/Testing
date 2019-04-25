@@ -8,7 +8,7 @@ stages{
         steps{
             script{
                 sh 'ls -lrt /root/Scripts'
-                sh '/root/Scripts/test2.sh'
+                sh '/root/Scripts/web.sh'
             }
         }
     }
